@@ -1,10 +1,11 @@
 {
   "in": {
-    "txt": {
+    "coffee": {
+      "out": "js",
       "transformers": {
         "name": ".",
         "options": {
-          "errorText": "error"
+          "bare": true
         }
       }
     }

@@ -1,5 +1,8 @@
+var coffee = require('coffee-script');
+
 module.exports = function (file, options, cb) {
   var source = file.buffer.toString();
-  if (source.indexOf(options.errorText) > -1) return cb(new Error('No good!'));
-  cb(null, {buffer: new Buffer('bar\n')});
+  try { source = coffee.compile(source, options); }
+  catch (er) { return cb(er); }
+  cb(null, {buffer: new Buffer(source)});
 };

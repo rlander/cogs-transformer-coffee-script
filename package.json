@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rlander/cogs-transformer-livescript
+    "url": "https://github.com/rlander/cogs-transformer-livescript"
   },
   "dependencies": {
     "LiveScript": "1.x"

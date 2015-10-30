@@ -1,15 +1,15 @@
 {
-  "name": "cogs-transformer-coffee-script",
-  "version": "1.0.4",
+  "name": "cogs-transformer-livescript",
+  "version": "0.0.1",
   "author": "Casey Foster <c@sey.me>",
-  "description": "A coffee-script transformer for Cogs.",
+  "description": "A livescript transformer for Cogs.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caseywebdev/cogs-transformer-coffee-script"
+    "url": "https://github.com/rlander/cogs-transformer-livescript
   },
   "dependencies": {
-    "coffee-script": "1.9.2"
+    "LiveScript": "1.x"
   },
   "devDependencies": {
     "cogs-test-helper": "1.0.6"
